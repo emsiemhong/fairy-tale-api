@@ -4,6 +4,10 @@ This API allows you to manage and retrieve fairy tale stories. Below are the ava
 
 ## Endpoints
 
+```
+https://fairy-tale-h8ekmey95-siemhong.vercel.app/
+```
+
 ### Get All Fairy Tales
 
 ```
