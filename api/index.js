@@ -1,5 +1,5 @@
 const express = require("express");
-const fs = require("fs");
+const serverless = require("serverless-http");
 const app = express();
 const fairyTales = require("../fairyTales.json"); // Assuming fairyTales.json contains your data
 
@@ -82,3 +82,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+module.exports.handler = serverless(app);
