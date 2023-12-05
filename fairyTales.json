@@ -1,0 +1,102 @@
+[
+  {
+    "id": "0001",
+    "title": "The Ugly Duckling",
+    "author": "Hans Christian Andersen",
+    "created_at": "1843-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/urgly-duck.jpg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "3-6",
+    "summary": "A misunderstood duckling discovers its true identity and beauty amidst hardships."
+  },
+  {
+    "id": "0002",
+    "title": "The Frog Prince",
+    "author": "The Brothers Grimm",
+    "created_at": "1812-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/frog-princess.webp",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "3-6",
+    "summary": "A frog, transformed into a prince by a princess's kiss, teaches the value of promises and friendship."
+  },
+  {
+    "id": "0003",
+    "title": "Hansel and Gretel",
+    "author": "The Brothers Grimm",
+    "created_at": "1812-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/hansel&gretel.jpg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "7-12",
+    "summary": "Hansel and Gretel outsmart a witch after being left in the woods, finding their way home with courage."
+  },
+  {
+    "id": "0004",
+    "title": "Beauty and the Beast",
+    "author": "Gabrielle-Suzanne Barbot de Villeneuve",
+    "created_at": "1740-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/beautyandthebeast.jpeg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "7-12",
+    "summary": "Belle's kindness breaks an enchantment, transforming a Beast back into a prince, emphasizing inner beauty."
+  },
+  {
+    "id": "0005",
+    "title": "Snow White",
+    "author": "The Brothers Grimm",
+    "created_at": "1812-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/snow-white.jpeg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "13+",
+    "summary": "Snow White, persecuted by her stepmother, finds refuge with the seven dwarfs until her prince breaks the curse."
+  },
+  {
+    "id": "0006",
+    "title": "Rumpelstiltskin",
+    "author": "The Brothers Grimm",
+    "created_at": "1812-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/rumpetstilltskin_.jpg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "13+",
+    "summary": "A miller's daughter must guess the name of a magical creature to save her child and outwits Rumpelstiltskin."
+  },
+  {
+    "id": "0007",
+    "title": "Cinderella",
+    "author": "Charles Perrault",
+    "created_at": "1697-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/Cinderella.jpeg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "All",
+    "summary": "Cinderella, mistreated by her stepfamily, attends a ball with the help of her Fairy Godmother and wins the heart of a prince."
+  },
+  {
+    "id": "0008",
+    "title": "The Little Mermaid",
+    "author": "Hans Christian Andersen",
+    "created_at": "1837-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/The Little Mermaid.jpeg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "All",
+    "summary": "The Little Mermaid sacrifices her voice for love, longing to join the human world."
+  },
+  {
+    "id": "0009",
+    "title": "Sleeping Beauty",
+    "author": "Charles Perrault",
+    "created_at": "1697-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/Sleeping Beauty.jpeg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "All",
+    "summary": "A curse puts Sleeping Beauty to sleep until true love's kiss awakens her from a hundred-year slumber."
+  },
+  {
+    "id": "0010",
+    "title": "The Emperor's New Clothes",
+    "author": "Hans Christian Andersen",
+    "created_at": "1837-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/The Emperor's New Clothes.jpg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "All",
+    "summary": "An emperor's vanity leads to a humorous realization about honesty and the perception of truth."
+  }
+]
