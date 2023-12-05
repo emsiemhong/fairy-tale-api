@@ -14,6 +14,8 @@ https://fairy-tale-h8ekmey95-siemhong.vercel.app/
 GET /api/fairytales
 ```
 
+Example: https://fairy-tale-h8ekmey95-siemhong.vercel.app/api/fairytales
+
 Returns a list of all fairy tales.
 
 ### Get a Single Fairy Tale
@@ -21,6 +23,9 @@ Returns a list of all fairy tales.
 ```
 GET /api/fairytales/{id}
 ```
+
+Example: https://fairy-tale-h8ekmey95-siemhong.vercel.app/api/fairytales/0001
+
 Returns a single fairy tale by ID.
 
 ### Filter Fairy Tales by Age
@@ -28,6 +33,8 @@ Returns a single fairy tale by ID.
 ```
 GET /api/fairytales/filterByAge/{age}
 ```
+
+Example: https://fairy-tale-h8ekmey95-siemhong.vercel.app/api/fairytales/filterByAge/3-7
 
 Returns a filtered list of fairy tales by age range. The age parameter can take values like "3-7", "2-8", or "All".
 
@@ -37,6 +44,8 @@ Returns a filtered list of fairy tales by age range. The age parameter can take 
 GET /api/fairytales/sortByTitle/{order}
 ```
 
+https://fairy-tale-h8ekmey95-siemhong.vercel.app/api/fairytales/sortByTitle/asc
+
 Returns a sorted list of fairy tales by title (ascending or descending).
 
 ### Sort Fairy Tales by Created Date
@@ -44,6 +53,9 @@ Returns a sorted list of fairy tales by title (ascending or descending).
 ```
 GET /api/fairytales/sortByCreatedAt/{order}
 ```
+
+https://fairy-tale-h8ekmey95-siemhong.vercel.app/api/fairytales/sortByCreatedAt/asc
+
 Returns a sorted list of fairy tales by created date (ascending or descending).
 
 ### Usage
