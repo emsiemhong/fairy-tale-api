@@ -1,7 +1,7 @@
 const express = require("express");
 const fs = require("fs");
 const app = express();
-const fairyTales = require("./fairyTales.json"); // Assuming fairyTales.json contains your data
+const fairyTales = require("../fairyTales.json"); // Assuming fairyTales.json contains your data
 
 // Route to get all fairy tales
 app.get("/api/fairytales", (req, res) => {
