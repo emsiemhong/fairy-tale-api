@@ -6,7 +6,7 @@
     "created_at": "1843-01-01T00:00:00.000Z",
     "image": "https://emsiemhong.github.io/fairy-tale-api/images/urgly-duck.jpg",
     "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
-    "age": "3-6",
+    "age": "0-3",
     "summary": "A misunderstood duckling discovers its true identity and beauty amidst hardships."
   },
   {
@@ -16,7 +16,7 @@
     "created_at": "1812-01-01T00:00:00.000Z",
     "image": "https://emsiemhong.github.io/fairy-tale-api/images/frog-princess.webp",
     "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
-    "age": "3-6",
+    "age": "0-3",
     "summary": "A frog, transformed into a prince by a princess's kiss, teaches the value of promises and friendship."
   },
   {
@@ -26,8 +26,38 @@
     "created_at": "1812-01-01T00:00:00.000Z",
     "image": "https://emsiemhong.github.io/fairy-tale-api/images/hansel&gretel.jpg",
     "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
-    "age": "7-12",
+    "age": "0-3",
     "summary": "Hansel and Gretel outsmart a witch after being left in the woods, finding their way home with courage."
+  },
+  {
+    "id": "0011",
+    "title": "Matthew Is Up",
+    "author": "Tshepo Letsapa",
+    "created_at": "1812-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/Matthew-is-Up.jpg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "0-3",
+    "summary": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+  },
+  {
+    "id": "0012",
+    "title": "Fifi and Teddy",
+    "author": "Tshepo Letsapa",
+    "created_at": "1812-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/Fifi-and-Teddy.jpg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "0-3",
+    "summary": "This card has supporting text below as a natural lead-in to additional content."
+  },
+  {
+    "id": "0013",
+    "title": "The Dark is Friendly",
+    "author": "Tshepo Letsapa",
+    "created_at": "1812-01-01T00:00:00.000Z",
+    "image": "https://emsiemhong.github.io/fairy-tale-api/images/The-Dark-is-Friendly.jpg",
+    "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+    "age": "0-3",
+    "summary": "The dark might feel scary... but it is actually very friendly! A story to soothe fear of the dark."
   },
   {
     "id": "0004",
@@ -46,7 +76,7 @@
     "created_at": "1812-01-01T00:00:00.000Z",
     "image": "https://emsiemhong.github.io/fairy-tale-api/images/snow-white.jpeg",
     "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
-    "age": "13+",
+    "age": "4-6",
     "summary": "Snow White, persecuted by her stepmother, finds refuge with the seven dwarfs until her prince breaks the curse."
   },
   {
@@ -56,7 +86,7 @@
     "created_at": "1812-01-01T00:00:00.000Z",
     "image": "https://emsiemhong.github.io/fairy-tale-api/images/rumpetstilltskin_.jpg",
     "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
-    "age": "13+",
+    "age": "4-6",
     "summary": "A miller's daughter must guess the name of a magical creature to save her child and outwits Rumpelstiltskin."
   },
   {
