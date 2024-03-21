@@ -67,13 +67,14 @@ Make requests to the respective endpoints using your preferred HTTP client.
 The API responses will be in JSON format and follow this structure:
 ```
 {
-  "id": "0008",
-  "title": "The Little Mermaid",
+  "id": "0001",
+  "title": "The Ugly Duckling",
   "author": "Hans Christian Andersen",
-  "created_at": "1837-01-01T00:00:00.000Z",
-  "image": "./images/The Little Mermaid.jpeg",
-  "audio": "./audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
-  "age": "All",
-  "summary": "The Little Mermaid sacrifices her voice for love, longing to join the human world."
+  "created_at": "1843-01-01",
+  "image": "https://emsiemhong.github.io/fairy-tale-api/images/1.webp",
+  "audio": "https://emsiemhong.github.io/fairy-tale-api/audios/កនជរកទង  Three Little Pigs in Khmer   Khmer Fairy Tales.mp3",
+  "age": "0-3",
+  "summary": "The Ugly Duckling is a story about a little bird that doesn't fit in with the rest of the ducks and other animals on the farm. He's teased and ostracized for being different until one day he discovers his true identity as a beautiful swan. It's a tale of self-discovery, acceptance, and the beauty of being true to oneself.",
+  "description": "The Ugly Duckling is one of Hans Christian Andersen's most famous fairy tales. It teaches children the importance of kindness, empathy, and celebrating differences. The story has been adapted into various forms of media and continues to be cherished by readers of all ages. The Ugly Duckling is one of Hans Christian Andersen's most famous fairy tales. It teaches children the importance of kindness, empathy, and celebrating differences. The story has been adapted into various forms of media and continues to be cherished by readers of all ages. The Ugly Duckling is one of Hans Christian Andersen's most famous fairy tales. It teaches children the importance of kindness, empathy, and celebrating differences. The story has been adapted into various forms of media and continues to be cherished by readers of all ages."
 }
 ```
