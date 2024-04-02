@@ -5,7 +5,7 @@ This API allows you to manage and retrieve fairy tale stories. Below are the ava
 ## Endpoints
 
 ```
-https://fairy-tale-api.vercel.app/
+https://fairy-tale-api-inky.vercel.app/
 ```
 
 ### Get All Fairy Tales
@@ -14,7 +14,7 @@ https://fairy-tale-api.vercel.app/
 GET /api/fairytales
 ```
 
-Example: https://fairy-tale-api.vercel.app/api/fairytales
+Example: https://fairy-tale-api-inky.vercel.app/api/fairytales
 
 Returns a list of all fairy tales.
 
@@ -24,7 +24,7 @@ Returns a list of all fairy tales.
 GET /api/fairytales/{id}
 ```
 
-Example: https://fairy-tale-api.vercel.app/api/fairytales/0001
+Example: https://fairy-tale-api-inky.vercel.app/api/fairytales/0001
 
 Returns a single fairy tale by ID.
 
@@ -34,7 +34,7 @@ Returns a single fairy tale by ID.
 GET /api/fairytales/filterByAge/{age}
 ```
 
-Example: https://fairy-tale-api.vercel.app/api/fairytales/filterByAge/3-7
+Example: https://fairy-tale-api-inky.vercel.app/api/fairytales/filterByAge/3-7
 
 Returns a filtered list of fairy tales by age range. The age parameter can take values like "3-7", "2-8", or "All".
 
@@ -44,7 +44,7 @@ Returns a filtered list of fairy tales by age range. The age parameter can take 
 GET /api/fairytales/sortByTitle/{order}
 ```
 
-https://fairy-tale-api.vercel.app/api/fairytales/sortByTitle/asc
+https://fairy-tale-api-inky.vercel.app/api/fairytales/sortByTitle/asc
 
 Returns a sorted list of fairy tales by title (ascending or descending).
 
@@ -54,7 +54,7 @@ Returns a sorted list of fairy tales by title (ascending or descending).
 GET /api/fairytales/sortByCreatedAt/{order}
 ```
 
-https://fairy-tale-api.vercel.app/api/fairytales/sortByCreatedAt/asc
+https://fairy-tale-api-inky.vercel.app/api/fairytales/sortByCreatedAt/asc
 
 Returns a sorted list of fairy tales by created date (ascending or descending).
 
@@ -65,6 +65,7 @@ Make requests to the respective endpoints using your preferred HTTP client.
 ### Response Format
 
 The API responses will be in JSON format and follow this structure:
+
 ```
 {
   "id": "0001",

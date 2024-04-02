@@ -1,7 +1,10 @@
 const express = require("express");
 const serverless = require("serverless-http");
-const app = express();
 const fairyTales = require("../fairyTales.json"); // Assuming fairyTales.json contains your data
+const app = express();
+const cors = require("cors");
+
+app.use(cors());
 
 // Route to get all fairy tales
 app.get("/api/fairytales", (req, res) => {
@@ -20,27 +23,31 @@ app.get("/api/fairytales/:id", (req, res) => {
 });
 
 // Route to filter fairy tales by age
-app.get('/api/fairytales/filterByAge/:age', (req, res) => {
+app.get("/api/fairytales/filterByAge/:age", (req, res) => {
   const requestedAge = req.params.age.toLowerCase();
   let filteredTales = [];
 
-  if (requestedAge === 'all') {
+  if (requestedAge === "all") {
     filteredTales = fairyTales;
   } else {
-    filteredTales = fairyTales.filter(tale => {
+    filteredTales = fairyTales.filter((tale) => {
       const taleAge = tale.age.toLowerCase();
       if (taleAge === requestedAge) {
         return true;
       } else {
-        const [min, max] = requestedAge.split('-').map(num => parseInt(num));
-        const [taleMin, taleMax] = taleAge.split('-').map(num => parseInt(num));
+        const [min, max] = requestedAge.split("-").map((num) => parseInt(num));
+        const [taleMin, taleMax] = taleAge
+          .split("-")
+          .map((num) => parseInt(num));
         return taleMin >= min && taleMax <= max;
       }
     });
   }
 
   if (filteredTales.length === 0) {
-    res.status(404).json({ message: 'No fairy tales found for the specified age range' });
+    res
+      .status(404)
+      .json({ message: "No fairy tales found for the specified age range" });
   } else {
     res.json(filteredTales);
   }
@@ -78,7 +85,7 @@ app.get("/api/fairytales/sortByCreatedAt/:order", (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3005;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
