@@ -1,6 +1,9 @@
 const express = require("express");
 const serverless = require("serverless-http");
+const cors = require("cors");
 const app = express();
+
+app.use(cors());
 const fairyTales = require("../fairyTales.json"); // Assuming fairyTales.json contains your data
 
 // Route to get all fairy tales
